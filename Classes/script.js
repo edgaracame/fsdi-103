@@ -17,9 +17,25 @@
         // const taxes = 11; // Declaration of the constant
         // document.writeln(taxes);
 
+        // Exercise #1
         let numberChildren = 3;
         let partnerName = "Evelyn";
         let geographicLocation = "United Kingdom";
         let jobTitle = "veterinary";
 
         document.writeln(`<p>You will be a ${jobTitle} in ${geographicLocation}, and married to ${partnerName} with ${numberChildren} kids.</p>`)
+
+        //Exercise #2
+        let personName = "Alberto";
+        let personemail = "alberto@email.com";
+        let personpassword = "12345678";
+        let personage = 35;
+        let personcountry = "Colombia";
+        let salaryMonthly = 100;
+        let salaryYearly = salaryMonthly * 12;
+
+        document.writeln(`
+        <p>Name: ${personName}</p>
+        <p>Email: ${personemail}</p>
+        <p>Salary (Yearly): $${salaryYearly}</p>
+        `);
